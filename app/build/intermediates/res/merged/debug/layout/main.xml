@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+    </SurfaceView>
+
+    <Button
+        android:id="@+id/btnStopRecord"
+        android:text="@string/stop_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="onClickStopRecord"
+        />
+
+    <Button
+        android:id="@+id/btnStartRecord"
+        android:layout_width="173dp"
+        android:layout_marginTop="450dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickStartRecord"
+        android:text="@string/start_record">
+    </Button>
+
+    <Chronometer
+        android:visibility="invisible"
+        android:textColor="#ff0000"
+        android:textSize="25dp"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer" />
+
+</FrameLayout>

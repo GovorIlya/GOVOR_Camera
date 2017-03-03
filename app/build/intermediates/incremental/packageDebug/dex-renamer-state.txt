@@ -1,0 +1,4 @@
+#Wed Mar 01 20:19:58 MSK 2017
+base.0=C\:\\Users\\ILYA\\Desktop\\GOVOR_Camera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\ILYA\\Desktop\\GOVOR_Camera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
